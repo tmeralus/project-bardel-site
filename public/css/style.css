@@ -7709,7 +7709,11 @@ textarea.form-control {
   background: #f2f2f2; }
 
 .person-donate .donate-amount .amount {
-  background: #28a745;
+  background: #f4f4f4;
+  color: #fff; }
+
+.person-donate .donate-amount .amount-learn {
+  background: #b3b3b3;
   color: #fff; }
 
 .fundraise-item {

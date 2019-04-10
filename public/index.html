@@ -67,18 +67,19 @@
           <div class="media block-6">
             <div class="icon"><span class="flaticon-donate"></span></div>
             <div class="media-body">
-              <h3 class="heading">Donate Books</h3>
+              <h3 class="heading">Donate Money</h3>
               <p>If you cant donate money donate knowledge. Learn how to donate french books or technology</p>
               <p><a href="#">Learn More</a></p>
+              <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png" alt="PayPal" />
             </div>
           </div>
         </div>
 
         <div class="col-md-4">
           <div class="media block-6">
-            <div class="icon"><span class="flaticon-donate"></span></div>
+            <div class="icon"><span class="flaticon-Book"></span></div>
             <div class="media-body">
-              <h3 class="heading">We need help</h3>
+              <h3 class="heading">Donate Books</h3>
               <p>All proceeds will be going to providing the funds for solar panels, books, computers, and other tools to help this library grow </p>
               <p><a href="#">Learn More</a></p>
             </div>
@@ -198,7 +199,7 @@
         <div class="col-md-6 pl-md-5">
           <span class="featured-text d-block mb-3">Our Story</span>
           <h2>Our library in Haiti needs renovations. The library needs your help to remain open for years to come.</h2>
-          <p class="mb-3">Library Dr Bardel Belizaire is a non-profit organization that was opened to inspire people of all ages to read. Located in the tiny village of Moron (Grand-Anse) in Haiti, the library seeks to open a wealth of knowledge to people in that community who would not have access to books or technology. The donation of books and laptops has allowed the library to remain open for one year. YEAH! One year of reading and learning of technology.</p>
+          <p class="mb-3">Library Dr Bardel Belizaire is a non-profit organization that was opened to inspire people of all ages to read. Located in the tiny village of Moron (Grand-Anse) in Haiti, the library seeks to open a wealth of knowledge to people in that community who would not have access to books or technology. The donation of books and laptops has allowed the library to remain open for one year! With your help we can keep the library open for another year for reading and learning with technology.</p>
           <!--  <span class="fund-raised d-block mb-5">We have raised $30,000</span> -->
           <p><a href="#" class="btn btn-success btn-hover-white py-3 px-5">Read The Full Story</a></p>
         </div>
@@ -225,8 +226,15 @@
              <span class="time d-block mb-3">Make a donation</span>
 
              <div class="donate-amount d-flex">
-               <div class="label">Donate</div>
-               <div class="amount">One-Time</div>
+             <div class="label">One-Time</div>
+            <!--   <div class="amount">  -->
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="AAEHNJKCCU3RE" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+              <!--    </div> -->
              </div>
            </div>
          </div>
@@ -239,8 +247,13 @@
              <span class="time d-block mb-3">Send monthly donations</span>
 
              <div class="donate-amount d-flex">
-               <div class="label">Donate</div>
-               <div class="amount">Recurring</div>
+               <div class="label">Recurring</div>
+               <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+               <input type="hidden" name="cmd" value="_s-xclick" />
+               <input type="hidden" name="hosted_button_id" value="H5ZVT76K3FT82" />
+               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+               <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+               </form>
              </div>
            </div>
          </div>
@@ -253,8 +266,8 @@
              <span class="time d-block mb-3">Donate french books </span>
 
              <div class="donate-amount d-flex">
-               <div class="label">Donated</div>
-               <div class="amount">Books</div>
+               <div class="label">Learn How</div>
+               <div class="amount-learn">Books</div>
              </div>
            </div>
          </div>
@@ -267,8 +280,8 @@
              <span class="time d-block mb-3">learn more of donating material</span>
 
              <div class="donate-amount d-flex">
-               <div class="label">Donate</div>
-               <div class="amount">Other</div>
+               <div class="label">Learn How</div>
+               <div class="amount-learn">Other</div>
              </div>
            </div>
          </div>
