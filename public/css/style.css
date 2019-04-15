@@ -2420,7 +2420,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #79ccab;
+  color: #ffffff;
   background-color: transparent; }
   .btn-link:hover {
     color: #45b488;
@@ -7710,11 +7710,11 @@ textarea.form-control {
 
 .person-donate .donate-amount .amount {
   background: #f4f4f4;
-  color: #fff; }
+  color: #ffffff; }
 
 .person-donate .donate-amount .amount-learn {
-  background: #b3b3b3;
-  color: #fff; }
+  background: #28a745;
+  color: #ffffff; }
 
 .fundraise-item {
   -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.1);
