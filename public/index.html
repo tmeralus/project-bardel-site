@@ -300,7 +300,7 @@
 							</div>
 						</div>
 						<div class="col-lg-6 contact-right">
-							<form class="booking-form" id="myForm" action="donate.php">
+							<form method="post" id="myForm" action="">
 								 	<div class="row">
 								 		<div class="col-lg-12 d-flex flex-column">
 							 				<select name="type" class="app-select form-control" required>
@@ -338,7 +338,14 @@
 			</section>
 			<!-- End donate Area -->
 
-
+			<script type="text/javascript">
+			  function send() {
+			    var link = 'mailto:bmonna@hotmail.com?subject=Message from '
+			             +document.getElementById('email').value
+			             +'&body='+document.getElementById('email').value;
+			    window.location.href = link;
+			}
+			</script>
 			<!-- start footer Area -->
 			<footer class="footer-area section-gap">
 				<div class="container">
