@@ -112,7 +112,7 @@
 	background-color:#fff;
 	padding:20px 0;
 	width: 100% !important;
-	box-shadow: -21.213px 21.213px 30px 0px rgba(158,158,158,0.3);	
+	box-shadow: -21.213px 21.213px 30px 0px rgba(158,158,158,0.3);
 }
 
 .sticky-wrapper{
@@ -138,7 +138,7 @@
 		font-size: 72px;
 		font-weight: 700;
 		line-height: 1.15em;
-		margin-bottom:30px;	
+		margin-bottom:30px;
 		@include media-breakpoint-down(md) {
 			font-size: 36px;
 		}
@@ -150,7 +150,7 @@
 
 		@include media-breakpoint-down (lg) {
 				font-size:45px;
-		}	
+		}
 
 		@media ( max-width:414px ) {
 			font-size:40px;
@@ -189,10 +189,8 @@
 
 	}
 }
-
-
 	.head-btn{
-		border:1px solid #777;	
+		border:1px solid #777;
 		color:#222;
 		font-weight:500;
 		background:#fff;
@@ -208,12 +206,8 @@
 			color:#fff;
 			border:1px solid transparent;
 			cursor:pointer;
-		} 
-
-
+		}
 	}
-
-
 	.head-btn2{
 		background:#fff;
 		@include transition();
@@ -221,15 +215,28 @@
 			background:#222;
 			color:#fff;
 			cursor:pointer;
-		} 
-
-
+		}
 	}
+
+	/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+	@media screen and (max-width: 500px) {
+	  .main-menubar {
+	    float: none;
+	    display: block;
+	    text-align: left;
+	  }
+
+		/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+		@media screen and (max-width: 500px) {
+		  .default-header {
+		    float: none;
+		    display: block;
+		    text-align: left;
+		  }
 
 //--------- End Banner Area -------------//
 
 //--------- Start callto Area -------------//
-
 
 .callto-area{
 	margin-top: -55px;
@@ -248,16 +255,13 @@
 	padding-right: 5%;
 }
 
-
-
-
 //--------- End callto Area -------------//
 
 //--------- Start project Area -------------//
 
 
 	.project-area{
-		background-color:$offwhite;	
+		background-color:$offwhite;
 		.header-text{
 			text-align:center;
 			h1{
@@ -265,7 +269,7 @@
 			}
 		}
 	}
-	
+
 	.project-wrap{
 
 		.details{
@@ -290,7 +294,7 @@
 		@media(max-width:767px){
 			.details{
 				text-align:center;
-			}	
+			}
 		}
 
 
@@ -301,7 +305,7 @@
 	}
 
 	.single-project{
-		
+
 		.single-project .title{
 		  color: #1a1a1a;
 		  text-align: center;
@@ -419,7 +423,7 @@
 	.btn-black{
 		margin-top:30px;
 		background-color:#222;
-		border:1px solid #777;	
+		border:1px solid #777;
 		color:#fff;
 		text-transform: uppercase;
 		font-size: 14px;
@@ -431,11 +435,11 @@
 			background:#fff;
 			color:#222;
 			cursor:pointer;
-		} 
+		}
 	}
 }
 
-	
+
 
 //--------- end about Area -------------//
 
@@ -443,7 +447,7 @@
 
 
 	.volunteer-area{
-		background-color:$offwhite;	
+		background-color:$offwhite;
 		.header-text{
 			text-align:center;
 			h1{
@@ -454,7 +458,7 @@
 
 
 	.single-vol{
-		
+
 		.single-vol .title{
 		  color: #1a1a1a;
 		  text-align: center;
@@ -490,7 +494,7 @@
 		   @media (max-width:413px) {
 				left: 12px;
 				width: 92%;
-		   }		   
+		   }
 		}
 
 		.content:hover .content-overlay{
@@ -515,7 +519,7 @@
 		  transition: all 0.3s ease-in-out 0s;
 		  h4{
 		  	color:#fff;
-		  }	
+		  }
 		}
 
 		.content-title{
@@ -552,7 +556,7 @@
 //--------- start donate Area -------------//
 
 .donate-area{
-background: url(../img/header-bg.jpg) no-repeat center center fixed; 
+background: url(../img/header-bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -668,8 +672,3 @@ background: url(../img/header-bg.jpg) no-repeat center center fixed;
 
 
 //--------- end footer Area -------------//
-
-
-
-
-
